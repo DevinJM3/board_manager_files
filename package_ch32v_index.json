@@ -1,10 +1,10 @@
 {
   "packages": [
     {
-      "name": "WCH",
+      "name": "WCH-DevinJM3",
       "websiteURL": "https://www.wch.cn/",
-      "maintainer": "WCH",
-      "email": "tech@wch.cn",
+      "maintainer": "DevinJM3",
+      "email": "Devin.Marx3@gmail.com",
       "help": {
         "online": "https://www.wch.cn/"
       },
@@ -32,6 +32,16 @@
               "packager": "WCH",
               "name": "openocd",
               "version": "1.0.0"
+            },
+            {
+              "packager": "ch32-rs",
+              "name": "wchisp",
+              "version": "0.3.0"
+            },
+            {
+              "packager": "ch32-rs",
+              "name": "wlink",
+              "version": "0.1.2"
             }
           ]
         },

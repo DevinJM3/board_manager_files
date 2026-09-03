@@ -146,6 +146,16 @@
               "version": "1.0.0"
             },
             {
+              "packager": "ch32-rs",
+              "name": "wchisp",
+              "version": "0.3.0"
+            },
+            {
+              "packager": "ch32-rs",
+              "name": "wlink",
+              "version": "0.1.2"
+            },
+            {
               "packager": "WCH",
               "name": "beforeinstall",
               "version": "1.0.0"

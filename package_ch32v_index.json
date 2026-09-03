@@ -149,7 +149,7 @@
               "packager": "WCH",
               "name": "beforeinstall",
               "version": "1.0.0"
-            }			
+            }
           ]
         }		
       ],
@@ -166,20 +166,20 @@
               "checksum": "SHA-256:43DF880A1908C873A8B6AB115568C6BEAEEC41DDADEB5202703B6AA9FDE50626",
               "size": "267710516"
             },
-			{
+			      {
               "host": "x86_64-linux-gnu",
               "url": "https://codeload.github.com/TianpeiLee/wch_gcc_8_linux/tar.gz/refs/tags/8.2.0",
               "archiveFileName": "wch_gcc_8_linux-8.2.0.tar.gz",
               "checksum": "SHA-256:967FB021E5689FF79A06A71C7E54FB7FACE418D5E9B27EC64F5E56687557A282",
               "size": "245443061"				
-			},
-			{
+			      },
+			      {
               "host": "x86_64-apple-darwin",
               "url": "https://codeload.github.com/TianpeiLee/wch_gcc_macos/tar.gz/refs/tags/8.2.0",
               "archiveFileName": "wch_gcc_macos-8.2.0.tar.gz",
               "checksum": "SHA-256:E14538AE7B621DE798C2466B338A4174CCE22C9CF12E5C1684C0995931738260",
               "size": "160591401"				
-			}			
+			      }			
           ]
         },
         {
@@ -237,7 +237,84 @@
               "size": "507269"
             }				
           ]
-        }		
+        },
+        {
+          "name": "wchisp",
+          "version": "0.3.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-win-x64.zip",
+              "archiveFileName": "wchisp-v0.3.0-win-x64.zip",
+              "checksum": "SHA-256:eba605bbc62f217f6454e7236d04ef1b8a6b4396dd7ce8dc26fc83016213c3aa",
+              "size": "681807"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-linux-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-linux-x64.tar.gz",
+              "checksum": "SHA-256:67e3d4eb0ffd3cc610d8927e3c3f452e2110531a3f14405dcaef87df219f200d",
+              "size": "883953"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-linux-aarch64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-linux-aarch64.tar.gz",
+              "checksum": "SHA-256:3d7477c05c65f69091d041623a06c558c549dc27bfe2a043d9325f310f2ee40f",
+              "size": "883441"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-macos-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-macos-x64.tar.gz",
+              "checksum": "SHA-256:ebbf46b0c64bb356cd58da2683c8809c50bdfe2181969f544933d24c8846f608",
+              "size": "830611"
+            },
+            {
+              "host": "aarch64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-macos-arm64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-macos-arm64.tar.gz",
+              "checksum": "SHA-256:a17dd422f7697bfe35c7c837c16bf99a7193300bcdc276c1253332b3a023e936",
+              "size": "804543"
+            }
+          ]
+        },
+        {
+          "name": "wlink",
+          "version": "0.1.2",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-win-x64.zip",
+              "archiveFileName": "wlink-v0.1.2-win-x64.zip",
+              "checksum": "SHA-256:59b3989137a9d22c9c1e8c04fd9371af3f54fa43b4cb63c59d6fb4286a34c78a",
+              "size": "592257"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-linux-x64.tar.gz",
+              "archiveFileName": "wlink-v0.1.2-linux-x64.tar.gz",
+              "checksum": "SHA-256:f8f1fba2436694116fe2cf16b1572e92d116c4acd921bf12fbc0ca5bf63824bf",
+              "size": "843618"
+            },
+            {
+              "host": "aarch64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-macos-arm64.tar.gz",
+              "archiveFileName": "wlink-v0.1.2-macos-arm64.tar.gz",
+              "checksum": "SHA-256:49164d236346e4c294935412a072040eac8faaeb5f097952846807f7dc0fbf8c",
+              "size": "763735"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-win-x86.zip",
+              "archiveFileName": "wlink-v0.1.2-win-x86.zip",
+              "checksum": "SHA-256:5dbde89affb60c085169d9ec65cfe7566699f84b8d65619001b594686937122a",
+              "size": "563403"
+            }
+          ]
+        }
       ]
     }
   ]

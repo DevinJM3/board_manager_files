@@ -279,6 +279,41 @@
               "size": "757891"
             }
           ]
+        },
+        {
+          "name": "wlink",
+          "version": "0.1.2",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-win-x64.zip",
+              "archiveFileName": "wlink-v0.1.2-win-x64.zip",
+              "checksum": "SHA-256:59b3989137a9d22c9c1e8c04fd9371af3f54fa43b4cb63c59d6fb4286a34c78a",
+              "size": "592257"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-linux-x64.tar.gz",
+              "archiveFileName": "wlink-v0.1.2-linux-x64.tar.gz",
+              "checksum": "SHA-256:f8f1fba2436694116fe2cf16b1572e92d116c4acd921bf12fbc0ca5bf63824bf",
+              "size": "843618"
+            },
+            {
+              "host": "aarch64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-macos-arm64.tar.gz",
+              "archiveFileName": "wlink-v0.1.2-macos-arm64.tar.gz",
+              "checksum": "SHA-256:49164d236346e4c294935412a072040eac8faaeb5f097952846807f7dc0fbf8c",
+              "size": "763735"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-win-x86.zip",
+              "archiveFileName": "wlink-v0.1.2-win-x86.zip",
+              "checksum": "SHA-256:5dbde89affb60c085169d9ec65cfe7566699f84b8d65619001b594686937122a",
+              "size": "563403"
+            }
+          ]
         }
       ]
     }
